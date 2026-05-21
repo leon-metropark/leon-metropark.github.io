@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Park Community Trust</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-xs sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <img src="logo.jpg" alt="Metro Park Community Sports Charitable Trust Logo" class="h-14 w-auto object-contain">
+                <div class="hidden sm:block border-l border-gray-200 pl-3">
+                    <span class="text-xs block font-bold text-gray-400 tracking-wider uppercase">Official Site</span>
+                </div>
+            </div>
+            <nav class="flex gap-6 text-sm font-semibold text-gray-600">
+                <a href="#about" class="hover:text-amber-600 transition">About Us</a>
+                <a href="#vision" class="hover:text-amber-600 transition">Our Vision</a>
+                <a href="#contact" class="hover:text-amber-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-br from-slate-800 to-slate-900 text-white py-20 px-4 text-center border-b-4 border-amber-500">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4 tracking-tight">A Vibrant Sports & Recreation Hub for Our Community</h2>
+            <p class="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">Advocating for accessible, high-quality, and multi-sport facilities at Metro Park to serve local clubs and families in Millwater.</p>
+            <a href="#vision" class="inline-block bg-amber-500 text-slate-900 font-bold px-6 py-3 rounded-lg shadow hover:bg-amber-400 transition">Read Our Vision</a>
+        </div>
+    </section>
+
+    <main class="max-w-6xl mx-auto px-4 py-12 flex-grow space-y-16">
+        
+        <section id="about" class="grid md:grid-cols-2 gap-12 items-center scroll-mt-24">
+            <div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b-2 border-amber-500 pb-2 inline-block">About Us</h3>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    The Metro Park Community Trust is built directly by trust members and local club representatives utilizing Metro Park in Millwater. Our deep-rooted commitment is ensuring that local sports teams, fitness enthusiasts, and neighborhood families have accessible infrastructure tailored specifically to community scale and needs.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    We believe in collaborative, affordable, and sustainable infrastructure developments that allow grass-roots sports to thrive in the Hibiscus Coast region.
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-xs">
+                <h4 class="font-bold text-slate-900 mb-3">Our Core Principles</h4>
+                <ul class="space-y-3 text-sm text-slate-700">
+                    <li class="flex items-start gap-2">✔ <span><strong>Community First:</strong> Infrastructure directly guided by the local clubs who use the fields daily.</span></li>
+                    <li class="flex items-start gap-2">✔ <span><strong>Affordability:</strong> Ensuring entry costs to sports remain low for young families.</span></li>
+                    <li class="flex items-start gap-2">✔ <span><strong>Sustainability:</strong> Building a practical, durable multi-use space that handles growth responsibly.</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="vision" class="bg-white p-8 rounded-2xl shadow-xs border border-gray-100 scroll-mt-24">
+            <div class="text-center max-w-2xl mx-auto mb-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-2">Our Vision</h3>
+                <p class="text-gray-500 text-sm">Our ongoing focus to secure appropriate infrastructure at Metro Park.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-5 border border-gray-100 rounded-xl hover:border-amber-200 transition">
+                    <div class="text-amber-500 text-2xl mb-2">👥</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Clubrooms</h4>
+                    <p class="text-sm text-gray-600">A shared home base where sports codes can host community meetings, safely coordinate fixtures, and celebrate local milestones.</p>
+                </div>
+                <div class="p-5 border border-gray-100 rounded-xl hover:border-amber-200 transition">
+                    <div class="text-amber-500 text-2xl mb-2">🏠</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Amenities</h4>
+                    <p class="text-sm text-gray-600">Essential changing facilities, functional storage zones, and reliable accessible public spaces to support park operations cleanly.</p>
+                </div>
+                <div class="p-5 border border-gray-100 rounded-xl hover:border-amber-200 transition">
+                    <div class="text-amber-500 text-2xl mb-2">🌱</div>
+                    <h4 class="font-bold text-gray-800 mb-2">Sustainable Design</h4>
+                    <p class="text-sm text-gray-600">A carefully mapped layout respecting local geological constraints, maximizing utility, and minimizing financial footprint.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-slate-900 text-white p-8 rounded-2xl text-center scroll-mt-24">
+            <h3 class="text-2xl font-bold mb-2">Contact</h3>
+            <p class="text-slate-400 text-sm mb-6 max-w-md mx-auto">Are you a community member or local sports group looking to align with the trust? Reach out directly via our official email address.</p>
+            <div class="inline-flex items-center gap-2 bg-slate-800 px-4 py-3 rounded-lg border border-slate-700 text-sm sm:text-base font-mono">
+                📧 <a href="mailto:admin@metroparkcommunitytrust.org.nz" class="text-amber-400 hover:underline">admin@metroparkcommunitytrust.org.nz</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-gray-100 py-8 text-center text-xs text-gray-500">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col items-center gap-4">
+            <img src="logo.jpg" alt="Metro Park Community Trust Footer Logo" class="h-10 w-auto opacity-70 grayscale hover:grayscale-0 transition">
+            <p>&copy; 2026 Metro Park Community Trust. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
