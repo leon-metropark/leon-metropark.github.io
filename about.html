@@ -3,115 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | MetroPark Community Sports Charitable Trust</title>
-    <meta name="description" content="MetroPark Community Sports Charitable Trust">
-    <link rel="stylesheet" href="style.css">
+    <title>About Us - MetroPark Community Sports Charitable Trust</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-<header class="site-header">
-    <div class="container header-inner">
-        <a class="brand" href="index.html" aria-label="MetroPark Community Sports Charitable Trust home">
-            <img src="images/logo.jpg" alt="MetroPark Community Sports Charitable Trust Logo">
-            <span>MetroPark Community Sports Charitable Trust</span>
+<body class="bg-[#fafafa] font-sans antialiased text-gray-800 m-0 p-0">
+
+    <!-- Top Navigation Utility Bar -->
+    <div class="bg-white border-b border-gray-100 px-6 py-4 flex justify-between items-center max-w-7xl mx-auto">
+        <a href="/" class="flex items-center">
+            <img src="/logo.png" alt="MetroPark Community Sports Charitable Trust Logo" class="h-12 w-auto object-contain" onerror="this.onerror=null; this.src='../logo.png';">
         </a>
-        <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="projects.html">Projects</a>
-    <a href="media-releases.html">Media Releases</a>
-    <a href="charity/">Charitable Status</a>
-    <a href="index.html#contact">Contact</a>
-</nav>
+        <a href="/" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors flex items-center gap-1">
+            &larr; Back to Home
+        </a>
     </div>
-</header>
 
-<section class="page-hero">
-    <div class="container">
-        <p class="eyebrow">About Us</p>
-        <h1>Meet the Trustees</h1>
-        <p class="lead">MetroPark Community Sports Charitable Trust brings together representatives with deep community, sporting, governance and professional experience.</p>
+    <!-- Header Banner Block -->
+    <div class="bg-[#0f172a] text-white py-12 px-6 border-b-4 border-[#f59e0b]">
+        <div class="max-w-4xl mx-auto">
+            <span class="text-xs font-bold tracking-widest text-[#f59e0b] uppercase block mb-2">Our Team & Governance</span>
+            <h1 class="text-3xl md:text-4xl font-black tracking-tight">About Our Trust</h1>
+        </div>
     </div>
-</section>
 
-<main class="container page-content">
-    <section class="intro-card">
-        <h2>Our Trust</h2>
-        <p>The Trust supports the long-term development of community-focused sports and recreation infrastructure at Metro Park. Our trustees represent local sporting organisations and community interests, with a shared commitment to accessible facilities, participation and sustainable planning.</p>
-    </section>
+    <!-- Main Content Container -->
+    <div class="max-w-4xl mx-auto px-4 py-10 space-y-12">
 
-    <section class="trustee-grid">
-        <article class="trustee-card">
-            <img src="images/trustee-jeff-olufson.png" alt="Jeff Olufson">
-            <div>
-                <h2>Jeff Olufson</h2>
-                <p class="role">Trustee • Hibiscus Coast Cricket Club representative</p>
-                <p>Jeff Olufson represents the Hibiscus Coast Cricket Club, of which he is a life member. A founding Trustee of MCSCT, Jeff's involvement with Metro Park dates back to 2013.</p>
-                <p>He brings decades of community sport experience to the Trust and has a long record of service across the Hibiscus Coast, contributing to club development, youth participation and collaborative facility planning.</p>
-                <p>Jeff is committed to strengthening local sport through sound governance, strategic investment and accessible opportunities for families across the region.</p>
+        <!-- Trust Overview -->
+        <div class="space-y-4">
+            <h2 class="text-xl font-black text-slate-900 border-l-4 border-[#f59e0b] pl-3">Who We Are</h2>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-xs text-sm text-gray-600 leading-relaxed space-y-3">
+                <p>The MetroPark Community Sports Charitable Trust coordinates community amateur sports infrastructure and organizational governance within the Auckland region. Our mission centers on providing robust, accessible physical environments where regional clubs can focus completely on coaching, youth participation, and game-day competition.</p>
             </div>
-        </article>
+        </div>
 
-        <article class="trustee-card">
-            <img src="images/trustee-ray-finch.png" alt="Ray Finch">
-            <div>
-                <h2>Ray Finch</h2>
-                <p class="role">Trustee • Hibiscus Hockey representative</p>
-                <p>Ray Finch took over Hibiscus Hockey's representation on the Trust on 25 November 2024.</p>
-                <p>Ray is the CEO of Laura Fergusson Trust. With a Masters in Health Sciences and a strong sports injury and clinical background, he has worked in high performance sport with international cricket and hockey teams before immigrating to New Zealand in 2015.</p>
-                <p>Since arriving in New Zealand, Ray has led disability charities and has become a passionate advocate for upholding the rights of disabled people. He brings senior leadership experience, inclusive thinking and a strong love of sport and community to the Trust.</p>
+        <!-- Leadership / Trustees Section -->
+        <div class="space-y-6">
+            <h2 class="text-xl font-black text-slate-900 border-l-4 border-[#f59e0b] pl-3">Trust Leadership & Administration</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Scott Beard Profile Card -->
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-xs flex flex-col">
+                    <div class="bg-slate-100 p-6 flex justify-center border-b border-gray-100">
+                        <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-md bg-slate-200">
+                            <!-- Direct reference to local file path 'scottbeard.jpg' -->
+                            <img src="/scottbeard.jpg" alt="Scott Beard" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='../scottbeard.jpg';">
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+                        <div class="text-center">
+                            <h3 class="text-base font-bold text-slate-900">Scott Beard</h3>
+                            <span class="text-xs font-semibold text-amber-600 uppercase tracking-wider block mt-0.5">Trustee / Administrator</span>
+                        </div>
+                        <p class="text-xs text-gray-500 text-center leading-relaxed">
+                            Overseeing structural regulatory updates, strategic facilities asset management, and community athletic partnership scaling across the Hibiscus Coast.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Template Placeholder for additional trustees if needed -->
+                <div class="bg-white border border-gray-100 border-dashed rounded-xl p-6 flex flex-col items-center justify-center text-center text-gray-400 space-y-2">
+                    <div class="w-16 h-16 rounded-full border-2 border-dashed border-gray-200 flex items-center justify-center text-xl text-gray-300 font-bold">+</div>
+                    <p class="text-xs font-medium">Additional Board Trustees</p>
+                    <p class="text-[11px] max-w-[200px] text-gray-400">Governance positions and administrative liaison details are compiled dynamically.</p>
+                </div>
             </div>
-        </article>
+        </div>
 
-        <article class="trustee-card placeholder-card">
-            <div class="photo-placeholder">SB</div>
-            <div>
-                <h2>Scott Beard</h2>
-                <p class="role">Trustee</p>
-                <p>Scott has been involved in football as a player, coach and administrator for more than 50 years. He was President of HBCAFC for 12 years and has been a trustee of MCSCT since its inception.</p>
-                <p>His passion is to see children involved in sport, any sport, and to support opportunities that help young people participate, belong and grow through community recreation.</p>
-            </div>
-        </article>
+    </div>
 
-        <article class="trustee-card">
-            <img src="images/trustee-leon-smith.jpg" alt="Leon Smith">
-            <div>
-                <h2>Leon Smith</h2>
-                <p class="role">Trustee • Hibiscus Coast Softball Club Inc representative</p>
-                <p>Leon Smith represents the Hibiscus Coast Softball Club Inc, having served the club as President, Vice President, Secretary and Treasurer. He is now a committee member and acting Treasurer.</p>
-                <p>Leon has been involved with Metro Park planning and working group discussions since 16 October 2017 and became a trustee on 10 October 2024. His appointment followed Hibiscus Coast Softball Club's unanimous vote to support the Trust and its vision for community sporting infrastructure.</p>
-                <p>Professionally, Leon is the owner and director of Zettabit Ltd, an IT consultancy company of more than 15 years. He brings project delivery, governance, technology, planning and communication experience to the Trust.</p>
-                <p>Leon is passionate about grassroots sport and has contributed to local sporting organisations through fundraising, sponsorship, marketing, recruitment, asset management, coaching development and strategic planning.</p>
-            </div>
-        </article>
-
-        <article class="trustee-card placeholder-card">
-            <div class="photo-placeholder">BH</div>
-            <div>
-                <h2>Bill Hale</h2>
-                <p class="role">Trustee</p>
-                <p>Profile coming soon.</p>
-            </div>
-        </article>
-
-        <article class="trustee-card">
-            <img src="images/trustee-dan-bungard.png" alt="Dan Bungard">
-            <div>
-                <h2>Dan Bungard</h2>
-                <p class="role">Trustee • Coast Basketball representative</p>
-                <p>Dan Bungard became a trustee on 10 October 2024 and represents Coast Basketball, where he serves as Director of Basketball.</p>
-                <p>A passionate advocate for youth sport and community development, Dan is committed to creating opportunities for young people on the Hibiscus Coast through participation, coaching and player development.</p>
-                <p>Dan believes sport plays a critical role in helping young people develop confidence, resilience, teamwork and leadership skills. Through Coast Basketball, he has focused on building strong foundations that enable young athletes to grow both on and off the court while creating pathways for future success.</p>
-                <p>A strong supporter of the Hibiscus Coast community, Dan is passionate about ensuring local sporting organisations have access to quality facilities and opportunities that benefit future generations. His involvement with the MetroPark Community Sports Charitable Trust reflects his commitment to long-term community infrastructure that supports participation across multiple sporting codes.</p>
-            </div>
-        </article>
-    </section>
-</main>
-
-<footer class="site-footer">
-    <div class="container footer-inner">
-        <img src="images/logo.jpg" alt="MetroPark Community Sports Charitable Trust Logo">
+    <!-- Simple Footer -->
+    <footer class="bg-slate-900 text-gray-400 text-xs text-center py-6 border-t border-slate-800 mt-20">
         <p>&copy; 2026 MetroPark Community Sports Charitable Trust. All Rights Reserved.</p>
-    </div>
-</footer>
+    </footer>
+
 </body>
 </html>
