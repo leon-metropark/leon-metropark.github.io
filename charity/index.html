@@ -3,108 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charitable Trust Entity Status - MetroPark Community Sports Charitable Trust</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Charitable Trust Entity Status | MetroPark Community Sports Charitable Trust</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-[#fafafa] font-sans antialiased text-gray-800 m-0 p-0">
-
-    <!-- Top Navigation Utility Bar -->
-    <div class="bg-white border-b border-gray-100 px-6 py-4 flex justify-between items-center max-w-7xl mx-auto">
-        <!-- FIXED LOGO PATH: Using absolute path from root '/' ensures it resolves correctly on sub-pages like /charity/ -->
-        <a href="/" class="flex items-center">
-            <img src="/logo.png" alt="MetroPark Community Sports Charitable Trust Logo" class="h-12 w-auto object-contain" onerror="this.onerror=null; this.src='../logo.png';">
-        </a>
-        <a href="/" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors flex items-center gap-1">
-            &larr; Back to Home
-        </a>
-    </div>
-
-    <!-- Header Banner Block -->
-    <div class="bg-[#0f172a] text-white py-12 px-6 border-b-4 border-[#f59e0b]">
-        <div class="max-w-4xl mx-auto">
-            <span class="text-xs font-bold tracking-widest text-[#f59e0b] uppercase block mb-2">Official Registration & Rules</span>
-            <h1 class="text-3xl md:text-4xl font-black tracking-tight">Charitable Trust Entity Status</h1>
+<body class="bg-gray-50 text-slate-900 font-sans min-h-screen">
+    <header class="bg-white border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="../index.html" class="flex items-center gap-3 text-slate-800 font-semibold">
+                <img src="../images/logo.jpg" alt="MetroPark Community Sports Charitable Trust Logo" class="h-14 w-auto object-contain">
+            </a>
+            <a href="../index.html" class="text-sm font-semibold text-slate-600 hover:text-amber-600 transition">← Back to Home</a>
         </div>
-    </div>
+    </header>
 
-    <!-- Main Content Container -->
-    <div class="max-w-4xl mx-auto px-4 py-10 space-y-8">
+    <section class="bg-slate-950 text-white border-b-4 border-amber-500">
+        <div class="max-w-5xl mx-auto px-6 py-16">
+            <p class="text-xs tracking-[0.22em] uppercase text-amber-400 font-bold mb-4">Official Registration & Rules</p>
+            <h1 class="text-3xl sm:text-4xl font-extrabold">Charitable Trust Entity Status</h1>
+        </div>
+    </section>
 
-        <!-- Status Alert Callout Box -->
-        <div class="bg-white border border-emerald-200 rounded-xl p-6 shadow-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-12">
+        <section class="bg-white border border-emerald-200 rounded-2xl p-6 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-                <h2 class="text-lg font-bold text-slate-900">Registered Entity Information</h2>
-                <p class="text-sm text-gray-500 mt-1">Operating cleanly under the relevant New Zealand regulatory structures for community sports advocacy.</p>
+                <h2 class="text-xl font-bold mb-2">Registered Entity Information</h2>
+                <p class="text-slate-600">Operating cleanly under the relevant New Zealand regulatory structures for community sports advocacy.</p>
             </div>
-            <div class="shrink-0">
-                <span class="inline-flex items-center bg-emerald-50 text-emerald-700 text-xs font-bold tracking-wide px-3 py-1.5 rounded-full border border-emerald-200 uppercase">
-                    Registered Active
-                </span>
-            </div>
-        </div>
+            <span class="inline-flex w-fit rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-xs font-bold tracking-wider text-emerald-700 uppercase">Registered Active</span>
+        </section>
 
-        <!-- Charity Registration Details Data Card -->
-        <div class="bg-white border border-gray-200 rounded-xl shadow-xs overflow-hidden">
-            <div class="bg-slate-50 border-b border-gray-200 px-6 py-4">
-                <h2 class="font-bold text-slate-900">Charity Registration Details</h2>
+        <section class="bg-white border border-gray-200 rounded-2xl shadow-sm overflow-hidden">
+            <h2 class="bg-slate-100 px-6 py-5 text-lg font-bold">Charity Registration Details</h2>
+            <div class="divide-y divide-gray-100">
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Legal Name</span><span class="md:col-span-2 font-medium">MetroPark Community Sports Charitable Trust</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Registration Number</span><span class="md:col-span-2 font-medium">CC55037</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">NZBN Number</span><span class="md:col-span-2 font-medium">9429046215567</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Registration Date</span><span class="md:col-span-2 font-medium">28/06/2017</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Balance Date</span><span class="md:col-span-2 font-medium">December 31</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Areas of Operation</span><span class="md:col-span-2 font-medium">Auckland</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Postal Address</span><span class="md:col-span-2 font-medium">P O Box 8, Orewa 0946</span></div>
+                <div class="grid md:grid-cols-3 gap-2 px-6 py-4"><span class="font-semibold text-slate-500">Street Address</span><span class="md:col-span-2 font-medium">374 Hibiscus Coast Highway, Orewa 0931</span></div>
             </div>
-            <div class="divide-y divide-gray-100 text-sm">
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Legal Name</span>
-                    <span class="sm:col-span-2 font-semibold text-slate-950">MetroPark Community Sports Charitable Trust</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Registration Number</span>
-                    <span class="sm:col-span-2 font-mono font-bold text-slate-900">CC55037</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">NZBN Number</span>
-                    <span class="sm:col-span-2 font-mono text-slate-900">9429046215567</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Registration Date</span>
-                    <span class="sm:col-span-2 text-slate-900">28/06/2017</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Balance Date</span>
-                    <span class="sm:col-span-2 text-slate-900">December 31</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Areas of Operation</span>
-                    <span class="sm:col-span-2 text-slate-900">Auckland</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="font-medium text-gray-500">Postal Address</span>
-                    <span class="sm:col-span-2 text-slate-900">P O Box 8, Orewa 0496</span>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-3 px-6 py-3.5 hover:bg-slate-50/50">
-                    <span class="sm:col-span-3 lg:col-span-1 font-medium text-gray-500">Street Address</span>
-                    <span class="sm:col-span-3 lg:col-span-2 text-slate-900">374 Hibiscus Coast Highway, Orewa 0931</span>
-                </div>
+            <div class="bg-slate-50 px-6 py-5">
+                <a href="https://register.charities.govt.nz/Charity/CC55037" target="_blank" rel="noopener" class="inline-block bg-amber-500 text-slate-950 font-bold tracking-wider text-xs uppercase px-5 py-3 rounded hover:bg-amber-400 transition">🌐 View Official Charity Register Entry</a>
             </div>
-            <div class="px-6 py-4 bg-slate-50 border-t border-gray-100">
-                <a href="https://register.charities.govt.nz/CharitiesRegister/ViewCharity?id=09230be6-445b-e711-80e6-00155d0d1907" target="_blank" class="inline-flex items-center justify-center bg-[#f59e0b] hover:bg-[#d97706] text-slate-950 font-bold text-xs uppercase tracking-wider px-4 py-2.5 rounded-lg shadow-xs transition-colors gap-2">
-                    🌐 View Official Charity Register Entry
-                </a>
-            </div>
-        </div>
+        </section>
 
-        <!-- Charitable Purposes -->
-        <div class="space-y-4">
-            <h2 class="text-xl font-black text-slate-900 border-l-4 border-[#f59e0b] pl-3">Charitable Purposes</h2>
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-xs text-sm text-gray-600 leading-relaxed space-y-3">
-                <p>The primary object of the Trust is to promote, support, develop and manage community amateur sport, recreational facilities and healthy active lifestyles across the MetroPark domain and the wider Hibiscus Coast community.</p>
-                <p>This includes looking after administrative coordination, securing grant distributions for protective gear and equipment updates, and driving collaborative multi-sport facility updates for local families, clubs, and youth sports teams.</p>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Simple Footer -->
-    <footer class="bg-slate-900 text-gray-400 text-xs text-center py-6 border-t border-slate-800 mt-20">
-        <p>&copy; 2026 MetroPark Community Sports Charitable Trust. Registered Charity: CC55037.</p>
-    </footer>
-
+        <section class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6">
+            <h2 class="text-2xl font-bold mb-4">Charitable Purposes</h2>
+            <p class="text-slate-600 leading-relaxed">MetroPark Community Sports Charitable Trust exists to support community sport, recreation and related facilities for the benefit of the wider community.</p>
+        </section>
+    </main>
 </body>
 </html>
